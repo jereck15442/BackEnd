@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mongodb-atlas": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server@latest",
+        "--readOnly"
+      ],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "mongodb://jereckbodiongan202400849_db_user:MoIKn6jq1AEqwN10@ac-u9cyh8v-shard-00-00.6zpczmq.mongodb.net:27017,ac-u9cyh8v-shard-00-01.6zpczmq.mongodb.net:27017,ac-u9cyh8v-shard-00-02.6zpczmq.mongodb.net:27017/?ssl=true&authSource=admin&retryWrites=true&w=majority"
+      }
+    }
+  }
+}
